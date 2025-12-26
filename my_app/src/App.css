@@ -1,0 +1,50 @@
+body{
+ background-image: url(asset/sunset.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.search-box
+{
+  width: 900px;
+ display: block;
+  margin: 20px auto;   /* top margin + auto center */
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.884);
+  background-color: rgba(245, 221, 221, 0.521);
+  
+}
+ input:focus {
+  outline: none;
+  }
+ input::placeholder
+  {
+    /* color: white; */
+    opacity: 1; 
+  }
+  .weather-container
+  {
+    display: block;
+    width: 900px;
+   
+ display: block;
+  margin: 20px auto;   /* top margin + auto center */
+  padding: 10px;
+
+  }
+  .current-weather-location
+  {
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    height: 60vh;
+    display: flex;
+    background-color: rgba(245, 221, 221, 0.521) ;
+    border-radius: 20px;
+  }
+  .sun-icon
+  {
+    width: 150px;
+    height: 150px;
+  }
