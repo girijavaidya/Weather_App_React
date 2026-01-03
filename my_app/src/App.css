@@ -52,11 +52,11 @@ body{
   .three-block {
   display: flex;
   gap: 20px;
-  margin-bottom: 50px;
-}
+ margin-top: -5%;
+  }
 
 .box {
-  flex: 1;              /* all boxes equal width */
+  flex: 1 1 ;
   height: 150px;
   background-color: rgba(245, 221, 221, 0.521);
   border: 1px solid #ccc;
@@ -65,5 +65,10 @@ body{
   align-items: center;
   justify-content: center;
   font-weight: bold;
+}
+.weather-check
+{
+  line-height: 1.6;
+  text-align: center;
 }
 
