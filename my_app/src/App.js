@@ -1,6 +1,6 @@
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import { MdSunny } from "react-icons/md";
 import { IoMdSunny } from "react-icons/io";
 import { FaCloudBolt } from "react-icons/fa6";
